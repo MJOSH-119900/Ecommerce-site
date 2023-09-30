@@ -18,12 +18,12 @@ const Navbar = () => {
 			</p>
 
 			<div className="flex items-center justify-center">
-				<div className="flex bg-gray-300 text-gray-400 object-contain my-2 rounded-md outline-0 min-w-[350px] lg:min-w-[1000px] md:min-w-[600px]">
+				<div className="flex bg-gray-300 text-gray-400 object-contain my-2 rounded-md border-[1px] border-gray-400 min-w-[350px] lg:min-w-[1000px] md:min-w-[600px]">
 					<HiMagnifyingGlass className="p-2 text-[40px]" />
 					<input
 						type="text"
 						placeholder="Search..."
-						className="rounded-md bg-[#eef3f8] border-[1px] opacity-70 border-gray-400 lg:min-w-[95%] md:min-w-[95%] min-w-[95%]"
+						className="rounded-md bg-[#eef3f8] text-black  opacity-70  lg:min-w-[95%] md:min-w-[95%] min-w-[85%] px-2  outline-none"
 					/>
 				</div>
 			</div>
